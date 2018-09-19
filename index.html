@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="co_browsing.js"></script>
+    <noscript><a href="https://www.acquire.io?welcome" title="live chat software">Acquire</a></noscript>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <div class="container">
+        <form action="#">
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <div id="gender">
+                <b>Gender:</b>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" >
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" >
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" ><br/>
+            </div>
+
+            <div id="maritalStatus">
+                <b>Marital Status:</b>
+                <label for="married">Married</label>
+                <input type="radio" id="married" name="maritalStatus" >
+                <label for="unmarried">Unmarried</label>
+                <input type="radio" id="unmarried" name="maritalStatus" >
+            </div>
+
+            <label for="country"><b>Country</b></label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject"><b>About yourself</b></label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+            <a href="javascript:acquireIO.startCoBrowseCodeBox()" id="cobrowse">Show Co-Browse Code</a>
+        </form>
+    </div>
+</body>
+</html>
